@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;800;900&display=swap");
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: "Big Shoulders Display", sans-serif;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.modern-art-gallery-black{
+display:none;
+}
+
+.modern-art-gallery-white{
+display:none;
+}
+
+.main-container {
+margin-left: 1rem;
+margin-right: 1rem;
+}
+
+.intro {
+margin: 32px 0px 120px 16px;
+width:90%;
+}
+
+.picture-of-grandmother{
+  width:100%;
+}
+
+.picture-of-grandmother-T{
+  display:none;
+}
+
+.picture-of-grandmother-W{
+  display:none;
+}
+
+.middle-containers-pictures{
+width:100%;
+}
+.top-header {
+font-family: "Big Shoulders Display", sans-serif;
+color: #151515;
+font-weight: 900;
+font-size: 60px;
+line-height: 55px;  
+}
+
+.top-text {
+margin-top: 32px;
+margin-bottom: 32px;
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+}
+
+.location-button {
+display: flex;
+}
+
+.loc-button {
+height: 72px;  
+width: 204px;
+background: #151515;
+color: white;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+border:none;
+}
+
+.link{
+color:white;
+text-decoration:none;
+}
+
+.greater-arrow {
+background: #d5966c;
+height: 72px;
+width: 56px;
+color: white;
+font-weight: 300;
+font-size: 40px;
+border: white;
+}
+
+.day-at-gallery-div {
+margin-top: 25px;
+margin-bottom: 32px;
+}
+
+.middle-header {
+font-family: "Big Shoulders Display", sans-serif;
+font-weight: 900;
+font-size: 50px;
+line-height: 45px;
+color: #151515;
+}
+
+.middle-text {
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+color: #444444;
+padding-top: 21px;
+width:90%;
+}
+
+.big-gallery-picture{
+width:100%;
+}
+
+.big-gallery-picture-W{
+  display:none;
+}
+
+.wooden-chair{
+margin-top:32px;
+}
+
+.wooden-chair-W{
+display:none;
+}
+
+.last-picture {
+margin-top: 16px;
+margin-bottom: 16px;
+}
+
+.last-picture-W{
+display:none;
+}
+
+.section-2{
+  margin-bottom: 120px;
+}
+
+.inspired-div {
+background: #151515;
+color: white;
+width: 100%;
+height: 293px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 24px;
+}
+
+.inspired-header {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  height: 90px;
+  width: 295px;
+  margin-bottom: 24px;
+}
+
+.inspired-text {
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+}
+
+.bottom-div {
+height: 336px;
+width: 100%;
+background: #151515;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 32px;
+}
+
+.white-gallery {
+  height: 40px;
+  width: 110px;
+}
+
+.bottom-text {
+font-weight: 300;
+font-size: 16px;
+line-height: 26px;
+height: 104px;
+width: 100%;
+margin-top: 38px;
+margin-bottom: 38px;
+}
+
+.text{
+  font-family: "Outfit", sans-serif;
+}
+
+.social-media i{
+font-size:20px;
+
+}
+
+.social-media i:hover{
+color: #D5966C;
+
+}
+
+.social-media{
+display: flex;
+column-gap: 20px;
+}
+
+.location-button:hover .loc-button {
+background-color: #D5966C;
+}
+
+.location-button:hover .greater-arrow  {
+background-color: #151515;
+}
+
+@media (min-width: 768px){
+.picture-of-grandmother{
+display:none;
+}
+
+.picture-of-grandmother-T{
+display:block;
+}
+
+header{
+display: flex;
+align-self: flex-start;
+margin-bottom: 7.5rem
+}
+
+.intro{
+margin-bottom: 0;
+margin-left: -3.125rem;
+margin-top: 9.0625rem;
+max-width: 21.1875rem;
+
+}
+
+.middle-text{
+width: 83%;
+padding-top:24px;
+}
+
+.top-header{
+font-size: 4.375rem;
+line-height: 4.0625rem;
+}
+
+.big-gallery-picture{
+height: 400px;
+width:428px;
+
+}
+
+.wooden-chair{
+height: 720px;
+width: 398px;
+margin:0px;
+}
+
+.last-picture{
+height: 313px;
+max-width:280px;
+margin-top:0px;
+margin-bottom:8px;
+}
+
+.inspired-div{
+height: 396px;
+max-width:280px;
+}
+
+.section-1{
+display:flex;
+flex-direction: row-reverse;
+width: 689px;
+}
+
+.section-2{
+display:flex;
+margin-top:11px;
+}
+
+.section-3{
+margin-left:11px;
+}
+
+.bottom-div{
+display: flex;
+padding: 39px;
+align-items: center;
+justify-content: space-around;
+flex-direction: row;
+}
+
+.bottom-text{
+margin-bottom:0px;
+margin-top: 56px;
+height: 104px;
+width: 281px;
+}
+
+}
+
+@media (min-width: 1100px){
+
+header{
+align-self:center;
+}  
+
+.intro{
+margin-top: 150px;
+}
+
+.top-text{
+font-weight: 300;
+font-Size:22px;
+line-height:32px;
+}
+
+.darkness{
+height: 799px;
+width: 450px;
+background:#151515;
+}
+
+.picture-of-grandmother-W{
+display:block;
+height: 800px;
+width: 540px;
+}
+  
+.picture-of-grandmother-T{
+display: none;  
+}
+
+.top-header{
+display:none;
+}
+
+.section-1{
+width:1092px;
+}
+
+.day-at-gallery-div{
+max-width:475px;
+}
+
+.big-gallery-picture{
+display:none;
+}
+
+.big-gallery-picture-W{
+display:block;
+}
+    
+.wooden-chair{
+display:none;
+}
+  
+.wooden-chair-W{
+display:block;
+}
+    
+.last-picture{
+display:none;
+}
+
+.last-picture-W{
+display:block;
+}
+    
+.modern-art-gallery-black{
+display:block;
+position:absolute;
+margin-top: 190px;
+margin-left: 167px;
+}
+  
+.modern-art-gallery-white{
+display:block;
+position:absolute;
+margin-top: 190px;
+margin-left: 165px;
+}
+
+.inspired-div{
+height:377px;
+max-width:445px;
+margin-top: 30px;
+}
+
+.bottom-text{
+height: 84px;
+width: 399px;
+}
+
+}
+
+
